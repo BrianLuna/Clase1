@@ -6,9 +6,6 @@ public class Main {
         boolean pares = false;
 
         while(numeroInicio <= numeroFin){
-            if(numeroInicio % 2 == 0 && pares){
-                System.out.println(numeroInicio);
-            }
 
             if(numeroInicio % 2 == 1 && !pares){
                 System.out.println(numeroInicio);
