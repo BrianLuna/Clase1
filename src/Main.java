@@ -8,7 +8,6 @@ public class Main {
         while(numeroInicio <= numeroFin){
             if(numeroInicio % 2 == 0 && pares){
                 System.out.println(numeroInicio);
-                System.out.println("Pepitas");
             }
 
             if(numeroInicio % 2 == 1 && !pares){
